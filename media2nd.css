@@ -1,0 +1,108 @@
+@media only screen and (min-width:500px) and (max-width:800px){
+   body{
+       background:black
+   }
+    #navbar{
+        height: 80px
+    }
+    .nav1{
+        width: 100px;height: 58px
+    }
+    .nav2{
+        font-size: 20px;position: absolute;left: -175px
+    }
+    .nav3{
+        width: 85px;font-size: 20px;left: 200px;
+    }
+    .nav6{
+        width: 135px;height: 50px;font-size: 16px
+    }
+    .logo{
+        width: 110px;height: 70px
+    }
+    .con2-1{
+        width: 40%;
+    }
+    body{
+        background: rgb(14, 10, 11)
+    }
+    .span-1{
+        font-size: 40px
+    }
+    .span2{
+        font-size: 40px
+    }
+    .span-3{
+        font-size: 34px
+    }
+    .span-4{
+font-size: 40px
+    }
+
+    .viltext{
+        font-size: 35px
+    }
+    .isl{
+        font-size: 15px
+    }
+    .gujrawala{
+        font-size: 15px
+    }
+    .con2{
+        font-size: 30px
+    }
+    .content3{
+        height: 1310px
+    }
+    .con4{
+        height: fit-content
+    }
+    .p{
+        height: 400px;
+    }
+    .con4-1{
+        font-size: 30px
+    }
+    .con9-all{width: 100%;
+    }
+    .con9{width: 100%;flex-direction: row;justify-content: center
+
+
+    }
+    .con9-1{
+        width: 30%;height: 265px;
+    }
+    .con9 > .con9-1 > h2 {font-size: 25px}
+    .opspan{
+        font-size: 25px
+    }
+    .con10{
+        display: flex;justify-content: center;flex-direction: row;position: 
+        relative;top: 100px
+    }
+    .allimg{
+        width:80%
+    }
+    .footer{height: fit-content;width: 100%
+    }
+    .footerpara{
+        width: 60%;font-size: 17px;text-align: center;
+    }
+    .pfoot{width: 100%}
+    .foot{
+        width: 100%;display: flex;justify-content: center;font-size: 17px
+    }
+    .foot3{
+        width: 75%
+    }
+    .footerlast{
+        margin-top: -15px
+    }
+    .imglast{
+        width: 200px;height: 100px;
+    }
+    .lastfoot{
+        margin-top: -40px
+    }
+    .secondlast{padding: 20px 0px 25px 0px}
+}
