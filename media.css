@@ -1,60 +1,100 @@
-@media (max-width:992px) {
-     :root {
-        --mypadding: 30px
+    @media (max-width:993px) {
+         :root {
+            --mypadding: 30px
+        }
+        .con1 {
+            font-size: 30px
+        }
+        .sl-text {
+            font-size: 35px;
+        }
+        .restaurent-txt {
+            font-size: 27px
+        }
+        .for-order {
+            font-size: 16px;
+        }
+        .con2-all {
+            flex-wrap: wrap;
+            gap: 25px
+        }
+        .restaurent-detail {
+            flex-direction: column-reverse
+        }
+        .res-branch-1 {
+            width: 100%;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .restaurent-detail img {
+            width: 100%;
+        }
+        .dir-btn {
+            margin: 40px auto
+        }
+        .village-branch {
+            flex-direction: column;
+            text-align: center;
+        }
+        .p-text {
+            position: absolute;
+            left: 30px;
+            width: 80%
+        }
     }
-    .con1 {
-        font-size: 30px
+    
+    @media (min-width:550px) and (max-width:650px) {
+         :root {
+            --mypadding: 80px
+        }
+        .exp-franchise-details {
+            padding: 0px 0px;
+        }
+        footer {
+            padding: 50px 10px
+        }
+        .footer {
+            justify-content: flex-start
+        }
     }
-    .sl-text {
-        font-size: 35px;
+    
+    @media (min-width:650px) and (max-width:750px) {
+         :root {
+            --mypadding: 100px
+        }
+        .exp-franchise-details {
+            padding: 0px 0px;
+        }
+        footer {
+            padding: 50px 20px
+        }
+        .footer {
+            justify-content: flex-start
+        }
     }
-    .restaurent-txt {
-        font-size: 27px
+    
+    @media (min-width:750px) and (max-width:992px) {
+         :root {
+            --mypadding: 150px
+        }
+        .exp-franchise-details {
+            padding: 0px 0px;
+        }
+        footer {
+            padding: 50px 30px
+        }
+        .footer {
+            justify-content: flex-start
+        }
     }
-    .for-order {
-        font-size: 16px;
+    
+    @media (min-width:992px) and (max-width:1080px) {
+        .village-branch {
+            flex-direction: row;
+            text-align: start
+        }
+        .restaurent-detail img {
+            width: 440px;
+            margin: auto;
+        }
     }
-    .con2-all {
-        flex-wrap: wrap;
-        gap: 25px
-    }
-    .restaurent-detail {
-        flex-direction: column-reverse
-    }
-    .res-branch-1 {
-        width: 100%;
-        text-align: center;
-        margin-top: 40px;
-    }
-    .restaurent-detail img {
-        width: 100%;
-    }
-    .dir-btn {
-        margin: 40px auto
-    }
-    .village-branch {
-        flex-direction: column;
-        text-align: center;
-    }
-    .p-text {
-        position: absolute;
-        left: 30px;
-        width: 80%
-    }
-}
-
-@media (min-width:470px) and (max-width:992px) {
-     :root {
-        --mypadding: 100px
-    }
-}
-
-@media (min-width:992px) and (max-width:1080px) {
-    .village-branch {
-        flex-direction: row;
-        text-align: start
-    }
-    .restaurent-detail {
-        flex-direction: row
-    }
-}
