@@ -2,6 +2,49 @@
          :root {
             --mypadding: 30px
         }
+        .franchise {
+            border: none;
+            padding: 0;
+            display: unset;
+            text-align: start
+        }
+        .order-online {
+            border: none;
+            padding: 0;
+            background: transparent;
+        }
+        .navbar-collapse.show {
+            left: 0
+        }
+        .navbar-collapse {
+            position: fixed;
+            top: 0;
+            left: -400px;
+            width: 400px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            color: #000;
+            flex-direction: column;
+            transition: all 0.3s ease;
+            z-index: 9;
+            color: #000
+        }
+        .navbar-nav {
+            background: #7a7c79;
+            padding: 100px 0px!important;
+            width: 100%;
+            height: 100%;
+        }
+        .nav-item {
+            color: #000;
+            border-bottom: 1px solid #fff;
+            width: 95%;
+            text-align: start;
+            padding: 0px 20px;
+        }
         .con1 {
             font-size: 30px
         }
@@ -41,50 +84,76 @@
             left: 30px;
             width: 80%
         }
+        .footer {
+            justify-content: flex-start;
+            gap: 40px
+        }
+    }
+    
+    @media (min-width:300px) and (max-width:600px) {
+        .navbar-collapse {
+            left: -280px;
+            width: 280px;
+        }
+        .footer {
+            text-align: center;
+        }
+        .foot-4 {
+            margin: auto;
+        }
+        .footer {
+            justify-content: center
+        }
+    }
+    
+    @media (min-width:300px) and (max-width:370px) {
+        .navbar-collapse {
+            left: -70%;
+            width: 70%;
+        }
     }
     
     @media (min-width:550px) and (max-width:650px) {
          :root {
-            --mypadding: 80px
+            --mypadding: 20px
         }
-        .exp-franchise-details {
-            padding: 0px 0px;
+        .navbar-collapse {
+            left: -320px;
+            width: 320px;
         }
-        footer {
-            padding: 50px 10px
+        .restaurent-detail {
+            width: 75%;
+            margin: 20px auto;
+        }
+        .foot-4 {
+            margin: auto;
         }
         .footer {
-            justify-content: flex-start
+            justify-content: center
         }
     }
     
     @media (min-width:650px) and (max-width:750px) {
          :root {
-            --mypadding: 100px
+            --mypadding: 20px
         }
-        .exp-franchise-details {
-            padding: 0px 0px;
+        .navbar-collapse {
+            left: -350px;
+            width: 350px;
         }
-        footer {
-            padding: 50px 20px
-        }
-        .footer {
-            justify-content: flex-start
+        .restaurent-detail {
+            width: 75%;
+            margin: 20px auto;
         }
     }
     
     @media (min-width:750px) and (max-width:992px) {
          :root {
-            --mypadding: 150px
+            --mypadding: 30px
         }
-        .exp-franchise-details {
-            padding: 0px 0px;
-        }
-        footer {
-            padding: 50px 30px
-        }
-        .footer {
-            justify-content: flex-start
+        .restaurent-detail {
+            width: 70%;
+            margin: 20px auto;
         }
     }
     
@@ -96,5 +165,8 @@
         .restaurent-detail img {
             width: 440px;
             margin: auto;
+        }
+        .footer {
+            justify-content: start
         }
     }
